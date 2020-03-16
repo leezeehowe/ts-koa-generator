@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "username": "root",
+    "password": "lzh1998620",
+    "database": "typeorm",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/dao/entities/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/dao/entities"
+    }
+ }

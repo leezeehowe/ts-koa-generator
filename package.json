@@ -1,0 +1,38 @@
+{
+  "name": "ts-koa-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node app/app.js",
+    "prod": "node bin/prod.js",
+    "dev": "node bin/dev.js",
+    "logs": "pm2 logs",
+    "monit": "pm2 monit"
+  },
+  "author": "lee",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "colors": "^1.4.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8",
+    "mysql2": "^2.1.0",
+    "reflect-metadata": "^0.1.13",
+    "roa-restful": "^0.0.7",
+    "typeorm": "^0.2.22"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.1",
+    "@types/koa-router": "^7.4.0",
+    "@types/node": "^13.7.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "nodemon": "^2.0.2",
+    "pm2": "^4.2.3",
+    "source-map-loader": "^0.2.4",
+    "ts-node": "3.3.0",
+    "typescript": "^3.7.5"
+  }
+}
